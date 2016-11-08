@@ -51,6 +51,24 @@ void gridLines()
     n++;
   }
   
+  for(Star star:stars)
+  {
+    float xstar = star.Xg;
+    float ystar = star.Yg;
+    
+    stroke(255, 0, 0);
+    point(xstar, ystar);
+  }
+  
+  /*
+  Table t = loadTable("HabHYG15ly.csv", "header");
+  stars.clear();
+  for(int i = 0 ; i < t.getRowCount() ; i++)
+  {
+    TableRow row = t.getRow(i);
+    Star star = new Star.getFloat(row, 13);
+  }
+ */
  
 }
 
