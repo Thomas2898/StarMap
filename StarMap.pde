@@ -1,3 +1,5 @@
+//Thomas cronin
+//C15529497
 void setup()
 {
   background(0);
